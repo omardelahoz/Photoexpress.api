@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Photoexpress.Api", "Photoexpress.Api\Photoexpress.Api.csproj", "{548865B7-8F63-47DE-920C-69A6A6A10028}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{C1075054-04EC-48B1-B2EA-3587C43F7E35}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{5D044F19-69D5-417A-9106-F41E00CEE693}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Photoexpress.Application", "Photoexpress.Application\Photoexpress.Application.csproj", "{D1D36F80-324C-498D-AF29-56A9BD247A22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Photoexpress.Domain", "Photoexpress.Domain\Photoexpress.Domain.csproj", "{E678DADD-9228-4277-A3C2-03749CE376BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{72F860BC-00C4-4684-B0C2-01EAD3A8ABEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Photoexpress.Infrastructure", "Photoexpress.Infrastructure\Photoexpress.Infrastructure.csproj", "{4A39FC75-25A3-4963-A4E9-801843A80337}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{A6DB53B1-88A0-4000-8246-3411A6159370}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{548865B7-8F63-47DE-920C-69A6A6A10028}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{548865B7-8F63-47DE-920C-69A6A6A10028}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{548865B7-8F63-47DE-920C-69A6A6A10028}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{548865B7-8F63-47DE-920C-69A6A6A10028}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1D36F80-324C-498D-AF29-56A9BD247A22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1D36F80-324C-498D-AF29-56A9BD247A22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1D36F80-324C-498D-AF29-56A9BD247A22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1D36F80-324C-498D-AF29-56A9BD247A22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E678DADD-9228-4277-A3C2-03749CE376BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E678DADD-9228-4277-A3C2-03749CE376BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E678DADD-9228-4277-A3C2-03749CE376BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E678DADD-9228-4277-A3C2-03749CE376BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A39FC75-25A3-4963-A4E9-801843A80337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A39FC75-25A3-4963-A4E9-801843A80337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A39FC75-25A3-4963-A4E9-801843A80337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A39FC75-25A3-4963-A4E9-801843A80337}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{548865B7-8F63-47DE-920C-69A6A6A10028} = {C1075054-04EC-48B1-B2EA-3587C43F7E35}
+		{D1D36F80-324C-498D-AF29-56A9BD247A22} = {5D044F19-69D5-417A-9106-F41E00CEE693}
+		{E678DADD-9228-4277-A3C2-03749CE376BB} = {5D044F19-69D5-417A-9106-F41E00CEE693}
+		{4A39FC75-25A3-4963-A4E9-801843A80337} = {72F860BC-00C4-4684-B0C2-01EAD3A8ABEE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {831D2591-0995-43D0-83A4-0665CA081B0D}
+	EndGlobalSection
+EndGlobal
